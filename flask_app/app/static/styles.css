@@ -1,0 +1,143 @@
+/* Base styling for the body and layout */
+.navbar{
+    overflow: hidden;
+    display: flex;
+    backdrop-filter: blur(8px);
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
+.navbar img {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%;
+}
+
+.navbar a {
+    color: wheat;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.navbar img:hover {
+    background-color: blue;
+    transform: scale(1.5);
+}
+
+.heading {
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    transform-style:preserve-3d;
+    color: orange;
+}
+
+.icon {
+    font-size: 40px; 
+    border: 1px dotted orange; 
+    border-radius: 50%; 
+    width: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+input:hover {
+    border-color: orange;
+
+}
+input {
+    border: 1px solid white;
+}
+
+button:hover {
+    border-color: orange;
+
+}
+
+button {
+    border: 1px solid white;
+}
+
+.register {
+    color: blue;
+}
+
+.doubt {
+    color: white
+}
+
+button {
+    color: orange;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.content, .loggedin{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    transform-style:preserve-3d;
+    color: orange;
+}
+
+label {
+    padding: 10px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: orange;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+
+.alert {
+    padding: 10px;
+    background-color: transparent;
+    color: orange;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background-color: transparent;
+    color: orange;
+}
+
+.alert-info {
+    background-color: transparent;
+    color: orange;
+}
+
+.alert-warning {
+    background-color: transparent;
+    color: orange;
+}
+
+.alert-error {
+    background-color: transparent;
+    color: orange;
+}
